@@ -6,37 +6,36 @@ Where in CM is the Kerberos Security Realm value displayed?
 Inside Administration -> Security -> Kerberos -> Configuration
 Configuration Key:
 
-**Kerberos Security Realm
-**default_realm
+      **Kerberos Security Realm**
+      **default_realm**
 
-My Host:
+      My Host:
 
-http://host:7180//cmf/settings?groupKey=config.common.kerberos.display_group&groupParent=#filtercategory=Settings&filterdisplayGroup=Kerberos&filterfreeText=realm
+      http://host:7180//cmf/settings?groupKey=config.common.kerberos.display_group&groupParent=#filtercategory=Settings&filterdisplayGroup=Kerberos&filterfreeText=realm
 
 
 Which CDH service(s) host a property for enabling Kerberos authentication?
 
-NameNode
+      NameNode
 
 How do you upgrade the CM agents?
 
-Execute this steps host by host:
+      Execute this steps host by host:
 
-Stop agent:
-      systemctl stop cloudera-scm-agent
+      Stop agent:
+            systemctl stop cloudera-scm-agent
 
-Upgrade packets:
+      Upgrade packets:
 
-      yum upgrade cloudera-manager-agent
+            yum upgrade cloudera-manager-agent
 
-Start Agent:
+      Start Agent:
 
-      systemctl start cloudera-scm-agent
+            systemctl start cloudera-scm-agent
 
 Give the tsquery statement used to chart Hue's CPU utilization?
 
-select cpu_user_rate where roleType=HUE_SERVER
-
+      select cpu_user_rate where roleType=HUE_SERVER
 
 Name all the roles that make up the Hive service
 
