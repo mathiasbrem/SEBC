@@ -2,6 +2,13 @@
 
 What is ubertask optimization?
 
+     When Uberstask is enable, the small-jobs ( definied by some parameters:  mapreduce.job.ubertask.maxmaps,mapreduce.job.ubertask.maxreduces, and mapreduce.job.ubertask.maxbytes ) jobs is sequentially executed within a single JVM.
+
+     Documentation:
+
+     https://archive.cloudera.com/cdh5/cdh/5/hadoop/hadoop-mapreduce-client/hadoop-mapreduce-client-core/mapred-default.xml
+
+
 Where in CM is the Kerberos Security Realm value displayed?
 Inside Administration -> Security -> Kerberos -> Configuration
 Configuration Key:
