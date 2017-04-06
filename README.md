@@ -1,4 +1,4 @@
-# <center>Services Enablement Boot Camp ( LABS Informations )
+# <center>Services Enablement Boot Camp 
 # <center> 
 
 All the labs are concluded and posted on Issues ( Closed ):
